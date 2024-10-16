@@ -1,0 +1,42 @@
+.moviesPage {
+    width: 100%;
+    height: auto;
+    background-color: #000;
+    font-family: Roboto;
+    letter-spacing: 0.02em;
+    padding: 5px 30px 5px 30px;
+}
+
+.moviesPage .header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.moviesPage .header >h1 {
+    font-family: Single Day;
+    font-size: 47.33px;
+    font-weight: 400;
+    line-height: 66.12px;
+    color:#72DB73;
+}
+
+.bannerContainer {
+    width: 65px;
+    height: 65px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.moviesPage .moviesSection {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.moviesPage .moviesSection .moviesSectionHeading {
+    font-size: 23px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 20px;
+}

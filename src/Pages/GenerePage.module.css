@@ -1,0 +1,87 @@
+.dflex{
+    display: flex;
+}
+
+.generePage {
+    width: 100vw;
+    height: 100vh;
+    background-color:#000000;
+    padding: 50px;
+}
+
+.leftSection {
+    width: 40%;
+    height: 100%;
+    padding-left: 35px;
+    font-family: Roboto;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+}
+
+.rightSection {
+    width: 60%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    position: relative;
+}
+
+.leftSection > h1 {
+    font-family: Single Day;
+    font-size: 60px;
+    line-height: 99.18px;
+    color: #72DB73;
+    margin-top: 30px;
+}
+
+.leftSection > p {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 65px;
+    color: #fff;
+    width: 400px;
+    margin-top: 10px;
+}
+
+.genere {
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.genere .container {
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 35px;
+    background-color: #148A08;
+}
+
+.genere .container > .para {
+    font-size: 23px;
+    color: #fff;
+}
+
+.genere .container > .crossButton{
+    font-size: 23px;
+    color:#085C00;
+    background-color: transparent;
+    border: none;
+}
+
+.leftSection .warningContainer .checkMinimum {
+    font-size: 18px;
+    color: #FF0000;
+}
+
+.leftSection .warningContainer .WarningImg {
+    width: 20px;
+}
+
+.leftSection .warningContainer{
+    gap: 5px;
+    align-items: center;
+    margin-top: 30px;
+}

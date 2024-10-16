@@ -1,0 +1,46 @@
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 25px;
+    font-family: DM Sans;
+    margin-bottom: 25px;
+}
+
+.form input {
+    width: 400px;
+    height: 42px;
+    border-radius: 3.8px;
+    background-color: #292929;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+}
+
+.form .checkBoxContainer {
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.form .checkBoxContainer > input {
+    width: 15px;
+    height: 15px;
+    background-color: #D9D9D9;
+}
+
+.form .checkBoxContainer > p{
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+}
+
+.form .para {
+    font-size: 13px;
+    font-weight: 400;
+    color: #FF0000;
+}

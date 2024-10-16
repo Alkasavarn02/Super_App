@@ -1,0 +1,34 @@
+.card {
+    width:250px;
+    height: 170px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px 15px;
+}
+
+.card-selected {
+    border: 5px solid #11B800;
+}
+
+.card:hover{
+    border: 5px solid #11B800;
+    cursor: pointer;
+}
+
+.card .imgContainer {
+    width: 220px;
+    height: 100px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px 0px #0000008C;
+}
+
+.card > h1 {
+    font-family: DM Sans;
+    font-size: 23px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-top: 15px;
+}

@@ -1,0 +1,48 @@
+
+.banner {
+    width: 190px;
+    height: 300px;
+    border-radius: 300px;
+    overflow: hidden;
+    border: 5.28px solid #FFFFFF;
+    box-shadow: 0px 8.8px 7.04px 0px #0000004F;
+}
+
+.marginBottom{
+    margin-bottom: 10px;
+}
+
+.rightSide{
+    font-family: Roboto;
+    letter-spacing: 0.02em;
+}
+
+.rightSide > p {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.rightSide > h1 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.rightSide .genereContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px
+}
+
+.genereContainer .para {
+    width: 180px;
+    height: 40px;
+    border-radius: 35px;
+    background-color: #9F94FF;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    display: flex;
+    align-items: center;
+    padding-left: 23px;
+}

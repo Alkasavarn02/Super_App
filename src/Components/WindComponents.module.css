@@ -1,0 +1,19 @@
+.windAndHumidCondition {
+    display: flex;
+    gap: 10px;
+    width: 150px;
+}
+
+.windAndHumidCondition .imgContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.windAndHumidCondition .imgContainer {
+    width: 30px;
+}
+
+.windAndHumidCondition .para {
+    font-size: 20px;
+}
